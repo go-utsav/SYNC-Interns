@@ -1,0 +1,158 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    /* background: linear-gradient(115deg, rgba(9, 9, 255, 0.76)); */
+   background-color: #005490;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+img{
+    width: 5.5rem;
+    height: 5.2rem;
+    border-radius: 50%;
+}
+.img{
+    position: fixed;
+}
+#title{
+    text-align: center;
+    padding: 0.8rem 0;
+    font-size: 3rem;
+    color: rgb(49,70,7);
+    background: rgba(105,224,90,0.55);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.questions{
+    margin: 3rem auto;
+
+    width: 30vw;
+    padding: 2rem;
+    background:#eee;;
+    cursor: default;
+    border-radius: 0.2rem;
+   border: solid 0.1rem #9670d8;
+}
+
+#question{
+    margin-bottom: 1rem;
+        font-size:1.6rem;
+    font-weight:600;
+}
+.option{
+    /* height:36px; */
+    margin-bottom: 0.8rem;
+    weight:200px;
+    font-size: 1.3rem;
+    border: solid 0.1rem #9670d8;
+    width: 20rem;
+    background: white;
+    border-radius: 0.2rem;
+
+}
+.option:hover{
+    color: rgb(86, 86, 86);
+}
+ol{
+    position: relative;
+    padding: 0 1.5rem;
+    color: rgb(1,73,73);
+}
+span{
+    display: block;
+    padding: 0.1rem 0.7rem;
+    border-radius: 1rem;
+}
+#answer{
+    margin-top: 2.5rem;
+}
+#stat{
+    font-size:larger;
+    margin-top: 1.5rem;
+    color: rgb(249, 20, 116);
+}
+.buttons{
+    text-align: center;
+}
+button{
+    padding: 0.2rem 1.5rem;
+    border: none;
+    outline: none;
+    font-size: 2.0rem;
+    border-radius: 0.5rem;
+    color: rgb(12 11 12 / 98%);
+    background: #f0736f;
+}
+button:active{
+    background: lavender;
+}
+#scoreboard,#answerBank{
+    width: 30rem;
+    background: rgba(230,230,250,0.77);
+    padding: 8rem;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 5rem;
+    display: none;
+}
+#score-title{
+    margin: 1rem 0;
+}
+#score-btn,#check-answer{
+    margin-top: 1rem;
+}
+#score{
+    font-size: 2.5rem;
+}
+#answerBank li{
+    text-align: left;
+    margin-bottom: 0.2rem;
+    font-size: larger;
+}
+#answers{
+    margin-top: 1rem;
+}
+
+#count-down {
+    font-size: 1.6rem;
+    font-weight: 700;
+    background-color: orangered;
+    padding: 5px;
+    margin: 1px;
+    color: #fff;
+    border-radius: 5px;
+    width:173px;
+    display:flex;
+    left:234px;
+    
+}
+/* 
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} */
+
+
+
+.quiz-box h1 {
+    background-color:#9d0191;
+    font-size: 4rem;
+    text-align: center;
+    color: #fff;
+    padding: 10px 0;
+    width: 100%;
+    margin-bottom: 2rem;
+    border-radius: 3px;    
+}
