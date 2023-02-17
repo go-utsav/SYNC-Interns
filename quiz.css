@@ -7,11 +7,12 @@
 body{
     font-family: sans-serif;
     /* background: linear-gradient(115deg, rgba(9, 9, 255, 0.76)); */
-   background-color: #005490;
+   background-color: #9ee98d;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 img{
     width: 5.5rem;
@@ -36,8 +37,9 @@ img{
     padding: 2rem;
     background:#eee;;
     cursor: default;
-    border-radius: 0.2rem;
-   border: solid 0.1rem #9670d8;
+    border-radius: 40px;
+
+   border: solid 10px black;
 }
 
 #question{
@@ -47,13 +49,14 @@ img{
 }
 .option{
     /* height:36px; */
+    text-align: center;
     margin-bottom: 0.8rem;
     weight:200px;
     font-size: 1.3rem;
     border: solid 0.1rem #9670d8;
     width: 20rem;
     background: white;
-    border-radius: 0.2rem;
+    border-radius: 30px;
 
 }
 .option:hover{
@@ -123,7 +126,7 @@ button:active{
 #count-down {
     font-size: 1.6rem;
     font-weight: 700;
-    background-color: orangered;
+    background-color: red;
     padding: 5px;
     margin: 1px;
     color: #fff;
@@ -147,7 +150,7 @@ button:active{
 
 
 .quiz-box h1 {
-    background-color:#9d0191;
+    background-color: orangered;;
     font-size: 4rem;
     text-align: center;
     color: #fff;
@@ -155,4 +158,9 @@ button:active{
     width: 100%;
     margin-bottom: 2rem;
     border-radius: 3px;    
+}
+
+.new {
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
 }
